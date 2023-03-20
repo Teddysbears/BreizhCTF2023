@@ -5,7 +5,7 @@ BreizhCTF 2023 - Un exchange poly
 
 | Event                    | Challenge  | Category       | Points | Solves      |
 |--------------------------|------------|----------------|--------|-------------|
-| BreizhCTF 2023           | Un exchange poly | Reverse        | ???    | ???         |
+| BreizhCTF 2023           | Un exchange poly | Reverse        | 500    | 2         |
 
 
 Bonjour, si vous êtes là, c'est que vous êtes le meilleur de votre domaine. 
@@ -296,7 +296,7 @@ des patterns assembleurs trouvable dans `xchg rax, rax`.
 ![function_3_1](./function_3_3.png)
 ```
 flag[8] = '0'
-flag[0] = 'B'
+flag[4] = 'T'
 flag[22] = 'P'
 ```
 
