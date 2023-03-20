@@ -131,6 +131,7 @@ comportement sans la modification.**
 _Il y a des typos dans le binaire encore à ce moment mais elle seront corrigées_
 
 On va donc continuer de comprendre le code du main : 
+
 ![main_renamed](./main_renamed.png)
 
 Le comportement est bizarre, mais on comprend que si le fichier `/tmp/poly_generation` existe
@@ -140,6 +141,7 @@ on nous affiche bien `Etape passée !`. On va donc réouvrir le fichier mais ce 
 n'existe toujours pas donc va appeler la fonction `interesting`, après cela on quitte le binaire.
 
 Allons voir ce que cette fonction fait. 
+
 ![interesting_1](./interesting_1.png)
 
 Comme précédemment si le fichier existe on va récupérer 1 caractère et enlever **48** à ce caractère.
@@ -149,6 +151,7 @@ Si le fichier n'existe pas on va juste l'ouvrir en écriture/lecture. Ici `v3` s
 cas elle va rester à zéro. 
 
 Ensuite il y a une grosse condition qui nous mène ici si `poly_generation == 0`: 
+
 ![interesting_2](./interesting_2.png)
 
 On a une association de valeures entières et d'offsets dans le binaire avec une string 
